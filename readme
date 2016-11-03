@@ -1,0 +1,15 @@
+readme.txt
+1)compile and run proc_parse with 'make run' command in the terminal
+2)'make clean' command if compiled files need to be removed
+
+Test result example as follow:
+
+make run
+gcc -std=c99    -c -o proc_parse.o proc_parse.c
+gcc -std=c99   proc_parse.o   -o proc_parse
+./proc_parse
+CPU Model Name:			 Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+Kernel Version:			 Linux version 3.16.0-23-generic (buildd@phianna) (gcc version 4.9.1 (Ubuntu 4.9.1-16ubuntu6) ) #31-Ubuntu SMP Tue Oct 21 17:56:
+Main Memory Total:	         1002532 kB
+Uptime:				 369.75 Seconds
+
